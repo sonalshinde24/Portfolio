@@ -1,138 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Sonal Shinde | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+<title>Sonal Shinde | Portfolio</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<!-- NAVBAR -->
 <nav>
   <h2>Sonal</h2>
   <ul>
-    <li><a href="#about">About</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#achievements">Achievements</a></li>
-    <li><a href="#certificates">Certificates</a></li>
-    <li><a href="#kaggle">Kaggle</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="achievements.html">Achievements</a></li>
+    <li><a href="certificates.html">Certificates</a></li>
+    <li><a href="kaggle.html">Kaggle</a></li>
+    <li><a href="contact.html">Contact</a></li>
   </ul>
 </nav>
 
-<!-- HERO + ABOUT -->
-<section class="hero" id="about">
-  <div class="hero-text">
+<section class="hero">
+  <div>
     <h1>Sonal Shinde</h1>
     <h3>Data Scientist | ML Engineer | UI-Aware Developer</h3>
     <p>
-      I build intelligent machine learning systems and present them through
+      I build intelligent ML systems and present them through
       clean, user-focused interfaces.
     </p>
-
-    <div class="buttons">
-      <a href="#projects">View Projects</a>
-      <a href="#">GitHub</a>
-      <a href="#">Kaggle</a>
-      <a href="assets/resume.pdf" download>Download Resume</a>
+    <div class="hero-buttons">
+      <a href="projects.html">View Projects</a>
+      <a href="assets/resume.pdf" class="outline">Resume</a>
     </div>
-
-    <ul class="about-points">
-      <li>🎓 Final-year BE student (Data Science)</li>
-      <li>🏢 6-month Internship at Tata Motors</li>
-      <li>🧠 ML, NLP, Deep Learning projects</li>
-      <li>🎨 UI/UX-driven ML applications</li>
-      <li>📊 Kaggle dataset contributor</li>
-    </ul>
   </div>
 </section>
 
-<!-- PROJECTS -->
-<section id="projects">
-  <h2>Projects</h2>
-
-  <div class="filters">
-    <button onclick="filterProjects('all')">All</button>
-    <button onclick="filterProjects('ui')">UI/UX</button>
-    <button onclick="filterProjects('ml')">ML</button>
-    <button onclick="filterProjects('nlp')">NLP</button>
-    <button onclick="filterProjects('dl')">Deep Learning</button>
-  </div>
-
-  <div class="project-grid">
-    
-    <div class="project-card ml">
-      <h3>AI Career Guidance App</h3>
-      <p>ML-based recommendation system for students.</p>
-      <span>Python • ML • Streamlit</span>
-      <div class="card-btns">
-        <a href="#">GitHub</a>
-        <a href="#">Video</a>
-        <a href="#">Dataset</a>
-      </div>
-    </div>
-
-    <div class="project-card nlp">
-      <h3>Mental Health Wellness App</h3>
-      <p>Detect emotional distress using NLP.</p>
-      <span>NLP • ML • Python</span>
-      <div class="card-btns">
-        <a href="#">GitHub</a>
-        <a href="#">Video</a>
-      </div>
-    </div>
-
-    <div class="project-card dl">
-      <h3>Pneumonia Detection</h3>
-      <p>Deep Learning CNN for medical images.</p>
-      <span>Deep Learning • CNN</span>
-      <div class="card-btns">
-        <a href="#">GitHub</a>
-        <a href="#">Video</a>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<!-- ACHIEVEMENTS -->
-<section id="achievements">
-  <h2>Achievements</h2>
-  <ul class="timeline">
-    <li>🏆 6-month Internship – Tata Motors</li>
-    <li>📈 Built ML systems with 95%+ accuracy</li>
-    <li>🧪 Automotive & real-world datasets</li>
-  </ul>
-</section>
-
-<!-- CERTIFICATES -->
-<section id="certificates">
-  <h2>Certificates</h2>
-  <div class="cert-grid">
-    <div class="cert-card">Machine Learning</div>
-    <div class="cert-card">Deep Learning</div>
-    <div class="cert-card">NLP</div>
-    <div class="cert-card">Python</div>
-  </div>
-</section>
-
-<!-- KAGGLE -->
-<section id="kaggle">
-  <h2>Kaggle Contributions</h2>
-  <div class="kaggle-card">
-    <h3>Smart Crop Recommendation Dataset</h3>
-    <p>Community-used dataset for ML learners</p>
-    <a href="#">View on Kaggle</a>
-  </div>
-</section>
-
-<!-- CONTACT -->
-<section id="contact">
-  <h2>Contact</h2>
-  <p>Email: sonal@email.com</p>
-  <p>GitHub | LinkedIn | Kaggle</p>
-</section>
-
-<script src="script.js"></script>
+<footer>© 2026 Sonal Shinde</footer>
 </body>
 </html>
