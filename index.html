@@ -1,144 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Sonal Shinde | Student Portfolio</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>Sonal Shinde | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <!-- NAVBAR -->
-<nav>
-  <h2>Sonal</h2>
-  <ul>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#education">Education</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#achievements">Achievements</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
+<nav class="navbar">
+    <div class="logo">Sonal Shinde Portfolio</div>
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Projects</li>
+        <li>Blog</li>
+        <li>Achievements</li>
+        <li>Certificates</li>
+        <li class="contact-btn">Contact</li>
+    </ul>
 </nav>
 
-<!-- HOME / HERO -->
-<section class="hero" id="home">
-  <div>
-    <h1>Hello, I'm <span>Sonal Shinde</span></h1>
-    <h3>AI & Data Science Undergraduate</h3>
-    <p>
-      I am an aspiring Artificial Intelligence and Data Science engineer with a
-      strong interest in machine learning, data science, and deep learning.
-      I enjoy working on real-world datasets and building intelligent systems
-      that solve practical problems.
-    </p>
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-card">
+        <div class="hero-text">
+            <h1>Hello, I’m <span>Sonal Shinde</span></h1>
+            <h3>Final-Year Engineering Student | Data Science & ML Enthusiast</h3>
+            <p>
+                Passionate about transforming data-driven insights into real-world
+                solutions. Experienced in Python, Machine Learning, and Data Analytics.
+            </p>
+            <button>View Projects</button>
+        </div>
 
-    <div class="buttons">
-      <a href="#projects">View Projects</a>
-      <a href="assets/resume.pdf" class="secondary" download>Download Resume</a>
+        <div class="hero-img">
+            <img src="profile.png" alt="Profile Image">
+        </div>
     </div>
-  </div>
+</section>
 
-  <img src="assets/images/sonal1.png" alt="Sonal Shinde">
+<!-- STATS -->
+<section class="stats">
+    <div class="stat-card">
+        <h2>15+</h2>
+        <p>Projects Completed</p>
+    </div>
+    <div class="stat-card">
+        <h2>7</h2>
+        <p>Certifications</p>
+    </div>
+    <div class="stat-card">
+        <h2>2</h2>
+        <p>Internships / Experience</p>
+    </div>
 </section>
 
 <!-- ABOUT -->
-<section id="about">
-  <h2>About Me</h2>
-  <p>
-    I am currently pursuing my Bachelor of Engineering in Artificial Intelligence
-    and Data Science at Ajeenkya D.Y. Patil School of Engineering, Pune.
-    I was born and brought up in Chakan, Pune, India.
-  </p>
-  <p>
-    My interest in AI and Data Science comes from curiosity about how data
-    and intelligent systems can be used to solve real-world problems.
-    I believe in learning by doing and continuously improving my skills
-    through projects, internships, and self-learning.
-  </p>
-</section>
-
-<!-- EDUCATION -->
-<section id="education">
-  <h2>Education</h2>
-  <ul>
-    <li><strong>BE – Artificial Intelligence & Data Science</strong><br>
-        Ajeenkya D.Y. Patil School of Engineering, Pune</li>
-    <li><strong>HSC</strong> – Mahatma Gandhi Junior College, Rajgurunagar</li>
-    <li><strong>SSC</strong> – Mahatma Gandhi Vidyalaya, Rajgurunagar</li>
-  </ul>
-</section>
-
-<!-- SKILLS -->
-<section id="skills">
-  <h2>Skills</h2>
-  <div class="grid">
-    <div class="card">Python</div>
-    <div class="card">Machine Learning</div>
-    <div class="card">Deep Learning</div>
-    <div class="card">Data Analysis</div>
-    <div class="card">HTML & CSS</div>
-    <div class="card">Git & GitHub</div>
-  </div>
+<section class="about">
+    <h2>About Me</h2>
+    <p>
+        I am a BE student in Artificial Intelligence and Data Science with hands-on
+        experience in real-world ML and analytics projects. I enjoy problem-solving,
+        teamwork, and continuous learning.
+    </p>
+    <button>Read More</button>
 </section>
 
 <!-- PROJECTS -->
-<section id="projects">
-  <h2>Projects</h2>
-  <div class="grid">
+<section class="projects">
+    <h2>My Latest Projects</h2>
+    <div class="project-grid">
 
-    <div class="card">
-      <h3>Pneumonia Detection using CNN</h3>
-      <p>
-        Developed a deep learning model using CNN to detect pneumonia
-        from chest X-ray images. Achieved good accuracy and presented
-        the project in academic exhibitions.
-      </p>
+        <div class="project-card">
+            <h3>Pneumonia Detection (CNN)</h3>
+            <p>Deep learning model for detecting pneumonia from X-ray images.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Motion Sickness Detection</h3>
+            <p>Real-time system using vehicle CAN Bus data.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>QR Device Management</h3>
+            <p>QR-based issue & return tracking system.</p>
+        </div>
+
     </div>
+    <button>See More Projects</button>
+</section>
 
-    <div class="card">
-      <h3>Motion Sickness Detection System</h3>
-      <p>
-        Built an ML-based system using vehicle sensor data to detect
-        motion sickness patterns and driving behavior.
-      </p>
+<!-- BLOG -->
+<section class="blogs">
+    <h2>Latest Insights & Articles</h2>
+    <div class="blog-grid">
+        <div class="blog-card">Understanding Machine Learning</div>
+        <div class="blog-card">Future of AI in Healthcare</div>
+        <div class="blog-card">Getting Started with SQL</div>
     </div>
+    <button>View All Blogs</button>
+</section>
 
-    <div class="card">
-      <h3>QR-Based Device Tracking System</h3>
-      <p>
-        Designed a QR-enabled system to track device issue and return
-        using Python and Google Sheets.
-      </p>
+<!-- CERTIFICATIONS -->
+<section class="certs">
+    <h2>My Certifications</h2>
+    <div class="cert-grid">
+        <div class="cert-card">Python for Data Science – NPTEL</div>
+        <div class="cert-card">Data Science – HP LIFE</div>
+        <div class="cert-card">Power BI – VOIS</div>
     </div>
-
-  </div>
+    <button>View All Certifications</button>
 </section>
 
 <!-- ACHIEVEMENTS -->
-<section id="achievements">
-  <h2>Achievements & Certifications</h2>
-  <ul>
-    <li>Top 1% Gold Medal – NPTEL (Python for Data Science)</li>
-    <li>2nd Prize – Academic Project Exhibition</li>
-    <li>Academic Excellence Award</li>
-    <li>Data Science Certification – HP LIFE</li>
-    <li>Power BI Certification – VOIS</li>
-  </ul>
-</section>
-
-<!-- CONTACT -->
-<section id="contact">
-  <h2>Contact</h2>
-  <p>Email: sonal2004shinde@gmail.com</p>
-  <p>
-    GitHub: https://github.com/sonalshinde24<br>
-    Kaggle: https://www.kaggle.com/sonalshinde
-  </p>
+<section class="achievements">
+    <h2>Recognitions & Achievements</h2>
+    <ul>
+        <li>Academic Excellence Award (AY 2023–24)</li>
+        <li>2nd Place – PBL Project Exhibition 2024</li>
+        <li>Top 1% Gold Medal – NPTEL Python</li>
+    </ul>
+    <button>View All Achievements</button>
 </section>
 
 <footer>
-  © 2026 Sonal Shinde | Student Portfolio
+    © 2026 Sonal Shinde Portfolio. All rights reserved.
 </footer>
 
 </body>
